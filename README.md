@@ -28,10 +28,10 @@ This project implements a vending machine system with the following business fun
 
 | Layer                     | Technologies                                                                 |
 |--------------------------|------------------------------------------------------------------------------|
-| **Backend Framework**    | [.NET 8](https://dotnet.microsoft.com/en-us/download)                        |
+| **Backend Framework**    | [.NET 6](https://dotnet.microsoft.com/en-us/download)                        |
 | **Authentication**       | ASP.NET Core Identity + JWT                                                  |
 | **Database**             | SQL Server with Entity Framework Core                                        |
-| **Testing**              | xUnit, Moq, AutoMapper, FluentAssertions                                     |
+| **Testing**              | xUnit, Moq, AutoMapper                                     |
 | **API Docs (optional)**  | Swagger / OpenAPI                                                             |
 
 ---
@@ -71,7 +71,7 @@ VendingMachine
 
 ### ✅ Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET 6 SDK](https://dotnet.microsoft.com/download)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) or LocalDB
 - (Optional) [Postman](https://www.postman.com/) or Swagger for API testing
 
@@ -81,7 +81,7 @@ VendingMachine
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/VendingMachine.git
+   git clone https://github.com/Ahmed-Bauomy/VendingMachine-FlapKapTask.git
    cd VendingMachine
    ```
 
@@ -125,7 +125,6 @@ dotnet test
 The tests will validate:
 - All user, product, and purchase functionalities
 - Role-based access
-- Edge cases (e.g., insufficient funds, invalid inputs)
 - Mocked service behavior using InterfaceAdapters
 
 ---
@@ -146,4 +145,4 @@ Pull requests and suggestions are welcome!
 
 ## 🧑‍💻 Author
 
-Ahmed Bayoumy – [Your LinkedIn/GitHub if public]
+Ahmed Bayoumy – [https://www.linkedin.com/in/ahmed-bayoumy-80b322177//https://github.com/Ahmed-Bauomy]
